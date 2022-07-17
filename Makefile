@@ -1,5 +1,6 @@
 # $Id$
 
+BINDIR= /usr/local/bin
 PROG=	curt
 NOMAN=	1
 SRCS=	curt.c
