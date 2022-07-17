@@ -3,7 +3,11 @@
 Simple program to return the current rtable of the session.
 
 ```
-$ curt
+$ curt                                                                                          
+current table: 0
+$ route -T 1 exec curt
+current table: 1
+
 ```
 
 ### To compile
